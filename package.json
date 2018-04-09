@@ -7,7 +7,8 @@
     "bundle": "node node_modules/react-vr/scripts/bundle.js && cp -rf static_assets vr/build && cp -f vr/index.deploy.html vr/build/index.html",
     "build": "yarn bundle",
     "open": "node -e \"require('xopen')('http://localhost:8081/vr/')\"",
-    "devtools": "react-devtools"
+    "devtools": "react-devtools",
+    "test": "echo add tests"
   },
   "dependencies": {
     "ovrui": "~2.0.0",
