@@ -20,7 +20,7 @@ export default class WobblyExample extends React.Component {
           onClick={this.handleClick}
           rotateY={30}
         >
-          Wobbly
+          Click To Invert
         </Button>
       </View>
     );

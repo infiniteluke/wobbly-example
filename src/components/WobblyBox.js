@@ -45,7 +45,6 @@ class WobblyBox extends Component {
   };
   render() {
     const { rotateY, position, flipped } = this.props;
-    console.log({ flipped });
     const Shape = this.state.color;
     return (
       <View
